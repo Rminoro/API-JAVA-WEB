@@ -1,0 +1,21 @@
+CREATE TABLE tb_tabela (
+    cd_tabela INT PRIMARY KEY,
+    ds_bcg VARCHAR(50),
+    ds_hepatiteB VARCHAR(50),
+    ds_rotavirus VARCHAR(50),
+    ds_dtpa VARCHAR(50),
+    ds_vip VARCHAR(50),
+    ds_hib VARCHAR(50),
+    ds_vpc10 VARCHAR(50),
+    ds_meningococicasConjugadas VARCHAR(50),
+    ds_meningococicaB VARCHAR(50),
+    ds_influenza VARCHAR(50),
+    ds_febreAmarela	 VARCHAR(50),
+    ds_scr VARCHAR(50),
+    ds_varicela VARCHAR(50),
+    ds_hepatiteA VARCHAR(50),
+    ds_hpv4 VARCHAR(50),
+    ds_dengue VARCHAR(50),
+    ds_covid19 VARCHAR(50),
+    cd_paciente INT
+);
